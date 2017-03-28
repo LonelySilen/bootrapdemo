@@ -3,7 +3,7 @@
 
 <!-- crud的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/crud.css">
+	href="<%=request.getContextPath()%>/public/style/crud/crud.css">
 
 
 <div class="container">
@@ -63,4 +63,4 @@
 
 
 <!-- 自己定义的js -->
-<script src="<%=request.getContextPath()%>/public/js/crud.js"></script>
+<script src="<%=request.getContextPath()%>/public/js/crud/crud.js"></script>

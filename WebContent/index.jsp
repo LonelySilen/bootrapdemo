@@ -8,8 +8,9 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Bootstrap3管理系统</title>
-
+<title>Bootstrap3Demo</title>
+<!-- The ico -->
+<link rel="shortcut icon" href="<%=request.getContextPath()%>/public/image/icon.ico">
 <!-- Bootstrap3 核心 CSS 文件 -->
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/public/bootstrap/css/bootstrap.min.css">
@@ -62,7 +63,7 @@
 
 	<!-- store.js 第三方本地存储控制  -->
 	<script
-		src="<%=request.getContextPath()%>/public/js/store.min.js"></script>
+		src="<%=request.getContextPath()%>/public/js/store/store.min.js"></script>
 
 	<!-- 自己定义的js -->
 	<script src="<%=request.getContextPath()%>/public/js/login/login.js"></script>

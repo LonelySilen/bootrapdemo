@@ -3,7 +3,7 @@
 
 <!-- permission的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/permission.css">
+	href="<%=request.getContextPath()%>/public/style/permission/permission.css">
 
 
 <div class="container">

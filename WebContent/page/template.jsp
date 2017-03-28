@@ -3,7 +3,7 @@
 
 <!-- template的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/template.css">
+	href="<%=request.getContextPath()%>/public/style/template/template.css">
 
 
 <div class="container">

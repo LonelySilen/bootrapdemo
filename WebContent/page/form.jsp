@@ -3,7 +3,7 @@
 
 <!-- box的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/form.css">
+	href="<%=request.getContextPath()%>/public/style/form/form.css">
 
 
 <div class="container">

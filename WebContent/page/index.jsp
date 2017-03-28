@@ -9,8 +9,9 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Bootstrap3管理系统</title>
-
+<title>Bootstrap3Demo</title>
+<!-- The ico -->
+<link rel="shortcut icon" href="<%=request.getContextPath()%>/public/image/icon.ico">
 <!-- Bootstrap3 核心 CSS 文件 -->
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/public/bootstrap/css/bootstrap.min.css">
@@ -33,7 +34,7 @@
 					data-toggle="offcanvas"></button>
 			</div>
 
-			<a class="navbar-brand" href="#home" data-toggle="tab">我的Bootstrap3网站</a>
+			<a class="navbar-brand" href="#home" data-toggle="tab">Bootstrap3Demo</a>
 
 			<!-- 分辨率低时显示的弹出顶部导航栏的按钮 -->
 			<button type="button" class="navbar-toggle collapsed"
@@ -253,17 +254,17 @@
 		src="<%=request.getContextPath()%>/public/bootstrap/js/bootstrap.min.js"></script>
 	<!-- store.js 第三方本地存储控制  -->
 	<script 
-		src="<%=request.getContextPath()%>/public/js/store.min.js"></script>
+		src="<%=request.getContextPath()%>/public/js/store/store.min.js"></script>
 				
 	<!-- 自己定义的js -->
 	<script src="<%=request.getContextPath()%>/public/js/index/index.js"></script>
 	
 	
 	<!-- 权限页面定义的js（需要store和jquery） -->
-	<script src="<%=request.getContextPath()%>/public/js/permission.js"></script>
+	<script src="<%=request.getContextPath()%>/public/js/permission/permission.js"></script>
 	
 	<!-- 用户管理页面定义的js（需要store和jquery） -->
-	<script src="<%=request.getContextPath()%>/public/js/management.js"></script>	
+	<script src="<%=request.getContextPath()%>/public/js/management/management.js"></script>	
 	
 </body>
 </html>

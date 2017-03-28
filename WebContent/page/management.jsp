@@ -3,7 +3,7 @@
 
 <!-- management的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/management.css">
+	href="<%=request.getContextPath()%>/public/style/management/management.css">
 
 
 <div class="container">

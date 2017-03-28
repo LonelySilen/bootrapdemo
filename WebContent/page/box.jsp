@@ -3,7 +3,7 @@
 
 <!-- box的风格文件 -->
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/public/style/box.css">
+	href="<%=request.getContextPath()%>/public/style/box/box.css">
 
 
 <div class="container">
