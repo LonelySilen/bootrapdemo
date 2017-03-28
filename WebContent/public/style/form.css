@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+/* 这里是当浏览器宽度最大不超过767px时应用的效果 */
+@media screen and (max-width: 767px) {
+	.form_contain {
+		padding-right: 40px;
+		padding-left: 20px;
+	}
+}

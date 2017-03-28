@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+/* 这里是当浏览器宽度最大不超过767px时应用的效果 */
+@media screen and (max-width: 767px) {
+	.template_contain {
+		padding-right: 40px;
+		padding-left: 20px;
+	}
+}
+
+.hide_pre{
+  color: #fafafa;
+
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+
+}

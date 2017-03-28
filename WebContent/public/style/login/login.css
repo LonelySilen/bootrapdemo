@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+/* 设置默认字体为雅黑 */
+body,button,input,select,textarea,h1,h2,h3,h4,h5,h6 {
+	font-family: Microsoft YaHei, '宋体', Tahoma, Helvetica, Arial,
+		"\5b8b\4f53", sans-serif;
+}
+
+
+/* 控制对齐和背景色 */
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+}
+
+
+/* 控制表格宽度 */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+/* 控制表头居中 */
+.form-signin .form-signin-heading{
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 控制输入框字体大小、高度 */
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+/* 控制输入框的特效在在前面 */
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+
+/* 控制输入框的对齐 */
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* 控制两个按钮的占位比例 */
+#initdata{
+	width:58%;
+}
+
+
+#mylogin{
+	float: right;
+	width:40%;
+}
+
+
+/* 主标题风格 */
+.sysname{
+	text-align:center;
+}	
+
+
+/* 分割线的长度 */
+.myhr{
+	width:50%;	
+}
+
+
+/* 这里是当浏览器宽度最大不超过767px时应用的效果 */
+@media screen and (max-width: 767px) {
+	/* 分割线的长度 */
+	.myhr{
+		width:60%;	
+	}
+}

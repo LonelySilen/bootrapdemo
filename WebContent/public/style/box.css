@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+/* 盒子的样式  */
+.box {
+	position: relative;
+	background: #ffffff;
+	border-top: 2px solid #C80027;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 3px;
+	width: 100%;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+}
+
+/* 盒子获得焦点的效果  */
+.box:hover {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* 盒子里的内容格式对齐 */
+.box-body {
+	margin-top: 5px;
+}
+
+.box .box-header .box-title {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 1px dashed #e0e0e0;
+}
+
+/* 控制盒子大小 */
+.box.height-control .box-body {
+	max-height: 300px;
+	overflow: auto;
+}
+
+/* 这里是当浏览器宽度最大不超过767px时应用的效果 */
+@media screen and (max-width: 767px) {
+
+	.box_contain {
+		padding-right: 40px;
+		padding-left: 00px;
+	}
+
+}
